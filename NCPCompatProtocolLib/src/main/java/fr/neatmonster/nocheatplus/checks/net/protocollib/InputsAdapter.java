@@ -89,7 +89,6 @@ public class InputsAdapter extends BaseAdapter {
         boolean sprint = in.sprint;
         // Finally, set.
         thisMove.input = new InputDirection(Boolean.compare(left, right), Boolean.compare(forward, backward));
-        player.sendMessage("Strafe: " + thisMove.input.getStrafeDir() + " Frwd: " + thisMove.input.getForwardDir());
     }
     
     public static class Input7Bools {
